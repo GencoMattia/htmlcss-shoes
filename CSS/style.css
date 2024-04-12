@@ -40,14 +40,12 @@ header{
     justify-content: flex-end;
 }
 
-
-
 .nav-button{
     width: 30%;
     justify-content: space-around;
 }
 
-.nav-button > a{
+.nav-button > li a{
     background-color: white;
     height: 2rem;
     width: 2rem;
@@ -58,7 +56,7 @@ header{
     transition: border;
 }
 
-.nav-button > a:hover{
+.nav-button a:hover{
     border: black solid 2px;
 }
 
