@@ -39,6 +39,7 @@ ul{
     background-color: white;
     height: 2rem;
     width: 2rem;
+    border: black solid 1px;
     border-radius: 100%;
     font-size: 0.8rem;
     font-weight: 900;
@@ -51,7 +52,7 @@ ul{
 
 .window article{
     flex-direction: column;
-    width: 50%;
+    max-width: 80%;
 }
 
 .window article > h1{
@@ -59,11 +60,23 @@ ul{
     text-align: center;
     color: #ffff00;
     font-weight: 900;
-    font-size: 2.1rem;
+    font-size: 3.5rem;
     padding: 0 1rem;
 }
 
 .shoe img{
     width: 100%;
+}
+
+#green-window{
+    background-color: #008000;
+}
+
+#yellow-window{
+    background-color: #ffff00;
+
+}
+#yellow-window h1{
+    color: green;
 }
 
