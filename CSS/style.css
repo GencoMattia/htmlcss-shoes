@@ -4,3 +4,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: sans-serif;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.window{
+    background-color: #ff0000;
+    height: 100vh;
+}
+
+.window article{
+    flex-direction: column;
+}
+
+.shoe{
+    width: 50%;
+}
+
+.shoe img{
+    width: 100%;
+}
