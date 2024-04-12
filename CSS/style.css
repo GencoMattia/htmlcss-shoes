@@ -3,12 +3,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 .flex{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 body{
@@ -26,16 +40,14 @@ header{
     justify-content: flex-end;
 }
 
-ul{
-    list-style: none;
-}
+
 
 .nav-button{
     width: 30%;
     justify-content: space-around;
 }
 
-.nav-button > li{
+.nav-button > a{
     background-color: white;
     height: 2rem;
     width: 2rem;
@@ -43,6 +55,11 @@ ul{
     border-radius: 100%;
     font-size: 0.8rem;
     font-weight: 900;
+    transition: border;
+}
+
+.nav-button > a:hover{
+    border: black solid 2px;
 }
 
 .window{
@@ -79,4 +96,3 @@ ul{
 #yellow-window h1{
     color: green;
 }
-
