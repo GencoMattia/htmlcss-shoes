@@ -5,14 +5,43 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: sans-serif;
-}
-
 .flex{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.anchor{
+    height: 50px;
+    justify-content: flex-end;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav-button{
+    width: 30%;
+    justify-content: space-around;
+}
+
+.nav-button > li{
+    background-color: white;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+    font-size: 0.8rem;
+    font-weight: 900;
 }
 
 .window{
