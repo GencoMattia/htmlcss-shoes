@@ -22,12 +22,19 @@ body{
 
 .window article{
     flex-direction: column;
+    width: 50%;
 }
 
-.shoe{
-    width: 50%;
+.window article > h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffff00;
+    font-weight: 900;
+    font-size: 2.1rem;
+    padding: 0 1rem;
 }
 
 .shoe img{
     width: 100%;
 }
+
